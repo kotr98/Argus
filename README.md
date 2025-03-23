@@ -14,7 +14,7 @@ To install the project dependencies in editable mode, follow these steps:
 
 1. **Clone the repository**:
     ```sh
-    git clone https://github.com/TJB-99/Argus.git
+    git clone https://github.com/kotr98/Argus.git
     cd Argus
     ```
 
