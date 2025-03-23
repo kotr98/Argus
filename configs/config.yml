@@ -1,0 +1,30 @@
+# Configs for the simulation
+
+# coordinates of the bounding box (you can select them with google maps)
+north: 48.268999
+west: 11.639342
+south: 48.241096
+east: 11.687758
+
+# define drones
+# name of the drone: [type, [starting coordinates], speed]
+drones:
+  0: ["surveillance", [0.0, 0.0, 0.0], 1570.0]
+  1: ["surveillance", [0.0, 0.0, 0.0], 1570.0]
+  2: ["surveillance", [0.0, 0.0, 0.0], 1570.0]
+  3: ["surveillance", [0.0, 0.0, 0.0], 1570.0]
+  4: ["surveillance", [0.0, 0.0, 0.0], 1570.0]
+  5: ["surveillance", [0.0, 0.0, 0.0], 1570.0]
+  6: ["surveillance", [0.0, 0.0, 0.0], 1570.0]
+  7: ["surveillance", [0.0, 0.0, 0.0], 1570.0]
+  8: ["surveillance", [0.0, 0.0, 0.0], 1570.0]
+  9: ["surveillance", [0.0, 0.0, 0.0], 1570.0]
+  10: ["attack", [0.0, 0.0, 0.0], 1570.0]
+
+# define target coordinates manually
+targets:
+  target0: [50, 50]
+
+# select random targets
+random_targets: true
+number_of_targets: 2

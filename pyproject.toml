@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "argus"
+version = "0.1.0"
+description = ""
+authors = []
+license = { text = "MIT" }
+readme = "README.md"
+dependencies = [
+    "numpy",
+    "matplotlib",
+    "osmnx",
+    "geopy",
+    "scikit-learn",
+    "contextily",
+    "owslib",
+    "opencv-python"
+]
+
+
+
+#[tool.setuptools]
+#packages = ["argus"]
+#package-dir = { "" = "src" }
+
+#[tool.setuptools.packages.find]
+#where = ["src"]
+
+[tool.setuptools]
+# Map the top-level package ("argus") to the src/ directory
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
